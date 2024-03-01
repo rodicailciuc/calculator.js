@@ -16,11 +16,12 @@ body {
   justify-content: center;
 }
 
-.calculator{
+.calculator {
   background-color: #7c90ad;
   padding: 20px;
   border-radius: 18px;
-  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
   background: transparent;
 }
 button {
@@ -29,11 +30,12 @@ button {
   width: 60px;
   height: 60px;
   border-radius: 10px;
-  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
   background: transparent;
   font-size: 20px;
   color: #fff;
-  cursor:pointer;
+  cursor: pointer;
   margin: 10px;
 }
 
@@ -43,7 +45,7 @@ button {
   margin: 20px 0;
 } */
 
-input{
+input {
   width: 320px;
   text-align: right;
   font-size: 45px;
@@ -54,20 +56,21 @@ input{
   outline: none;
   background: transparent;
   cursor: pointer;
-  color: #ccc;
-  box-shadow: box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);;
+  color: rgb(204, 204, 204);
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.active{
+.active {
   color: #50adff;
   z-index: 10;
 }
 
-.equal{
+.equal {
   color: #fff;
   background-color: rgb(80, 173, 255);
 }
-.del{
+.del {
   color: #fff;
   background-color: #f73838;
 }
