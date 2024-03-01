@@ -26,7 +26,7 @@
 
 alert("Heloo, try to do some math calculation here! \n Let's gooo! ");
 const num1 = Number(prompt('Enter your first NR.: '));
-const operation = prompt('Enter any operator (+, -, *, /, **, %	) ');
+const operation = prompt('Enter any operator "( +  -  *  /  % )" ');
 const num2 = Number(prompt('Enter your second NR: '));
 
 while (isNaN(num1) || isNaN(num2)) {
